@@ -1,0 +1,57 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+
+.wrap {
+  width: 85%;
+}
+
+.inner-wrapper{
+  width: 85%;
+}
+
+#inner-header {
+	.logo-block {
+
+		a {
+			float: left;
+      padding: 5px 0;
+		}
+
+	}
+	.header-right {
+		float: right;
+
+	}
+}
+
+.hero-content{
+  position: absolute;
+    width: auto;
+    left: 8%;
+    top: 40%;
+    h1{
+      color: $white;
+      font-size: 6em;
+      margin-bottom: 40px;
+    }
+    h4{
+      color: $white;
+    }
+}
+
+.btn-main:first-child{
+  border: 2px solid $white;
+  color: $white;
+}
+
+.btn-main:first-child:hover{
+  border-color: $light-purple;
+}
